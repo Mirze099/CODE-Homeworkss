@@ -1,0 +1,42 @@
+/* Responsive */
+
+@media (max-width: 576px) {
+    .container {
+      max-width: 450px;
+    }
+    .right-nav{
+        display: none;
+    }
+    .right-nav-menu{
+        display: flex !important;
+    }
+    
+    .about-cards{
+        display: flex ;
+        gap: 20px ;
+    }
+    .hero-img{
+        width: 50%;
+    }
+}
+
+@media (min-width: 576px) and (max-width:768px) {
+    .container {
+      max-width: 640px;
+    }
+}
+
+@media (min-width: 768px) and (max-width:992px) {
+    .container {
+      max-width: 800px;
+    }
+}
+
+@media (min-width: 992px) and (max-width:1400px) {
+    .container {
+      max-width: 1000px;
+    }
+  
+}
+
+

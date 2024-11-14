@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Kanit-Black;
+}
+
+@font-face {
+  font-family: Kanit-Black;
+  src: url(fonts/Kanit-Regular.ttf);
+}
+
+#home-page {
+  background-color: lightgrey;
+  height: 100vh;
+  margin-top: 75px;
+}
+
+.navbar {
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 196, 87),
+    rgb(109, 40, 109),
+    rgb(59, 59, 203)
+  );
+  padding: 20px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+ul li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+ul li {
+  list-style: none;
+  padding: 5px;
+  display: inline-block;
+  font-size: 22px;
+}
+
+.fa-brands {
+  font-size: 60px;
+  border-radius: 50%;
+  right: 10px;
+  bottom: 10px;
+  position: fixed;
+}
+
+.box1 {
+  position: absolute;
+  width: 100%;
+}
+
+.box-center {
+  background-color: darkgrey;
+  height: 400px;
+  width: 600px;
+  margin: 0 auto;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.box-center h2 {
+  font-size: 50px;
+  color: gray;
+  position: absolute;
+}
+
+.center-parag {
+  text-align: center;
+}
+
+.center-parag h1 {
+  padding: 35px;
+}
+
+.background1 {
+  background-color: rgb(0, 102, 255);
+  height: 400px;
+  width: 600px;
+  border-radius: 15px;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+}
+
+.background1 i {
+  font-size: 100px;
+  margin-left: 250px;
+  margin-top: 130px;
+}
+
+.background1:hover {
+  transition: all 0.6s ease;
+  opacity: 0.5;
+}
+
+.boxes {
+  padding: 160px;
+}
+
+.card {
+  background-color: rgb(167, 167, 167);
+  box-shadow: 1px 8px 8px 1px;
+  width: 340px;
+  height: 400px;
+  border-radius: 20px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  position: relative;
+  display: inline-block;
+}
+
+.card-color {
+  padding: 20px;
+}
+
+.card-color p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  font-size: 30px;
+  color: rgb(86, 86, 86);
+}
+
+.card-parag {
+  background-color: rgb(255, 255, 255);
+  border-radius: 0 0 20px 20px;
+  margin-top: 75px;
+  padding: 40px;
+  position: relative;
+}
+
+.icon {
+  color: white;
+  font-size: 25px;
+  top: 5px;
+  right: 9px;
+  position: absolute;
+  cursor: pointer;
+}
+.footer {
+  background-color: rgb(45, 45, 45);
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer p {
+  color: white;
+  font-size: 17px;
+}

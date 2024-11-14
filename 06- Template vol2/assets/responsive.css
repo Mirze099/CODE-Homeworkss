@@ -1,0 +1,39 @@
+@media (max-width: 576px) {
+  .main {
+    max-width: 90%;
+  }
+  .main-left {
+    max-width: 90%;
+  }
+  .main-right {
+    max-width: 90%;
+  }
+  .btn-parag{
+    display: none;
+  }
+}
+
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .main {
+    max-width: 95%;
+  }
+  .main-left {
+    max-width: 95%;
+  }
+  .main-right {
+    max-width: 95%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .main {
+    max-width: 95%;
+  }
+  .main-left {
+    max-width: 95%;
+  }
+  .main-right {
+    max-width: 95%;
+  }
+}

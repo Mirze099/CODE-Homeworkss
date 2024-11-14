@@ -1,0 +1,93 @@
+#subscribe {
+  background-color: lightgray;
+  margin-top: 50px;
+  padding: 8rem;
+}
+
+.subscribe {
+  @include container;
+  @include flex(center, center, column, 0px);
+  .subs-cards {
+    @include flex(center, center, row, 20px);
+    width: 90%;
+    .subs-card {
+      transition: all 0.5s ease;
+      &:hover {
+        transform: translateY(-50px);
+      }
+      @include flex(center, center, column, 20px);
+      background-color: white;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      //   padding: 30px;
+      width: 31%;
+      .subs-head {
+        text-align: center;
+        padding: 20px;
+        font-size: 20px;
+        color: black;
+      }
+      .subs-price {
+        background-color: orange;
+        color: white;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 20px;
+      }
+      .subs-price1 {
+        background-color: rgb(111, 0, 255);
+        color: white;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 20px;
+      }
+      .subs-price2 {
+        background-color: rgb(0, 255, 76);
+        color: white;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 20px;
+      }
+      .subs-list {
+        width: 100%;
+        text-align: center;
+        ul {
+          @include flex(center, center, column, 20px);
+          width: 100%;
+          li {
+            width: 100%;
+            &:nth-child(odd) {
+              background-color: rgb(226, 226, 226);
+              padding: 20px 60px;
+              color: white;
+              // width: 100%;
+            }
+            a {
+              color: black;
+              font-size: 20px;
+            }
+          }
+        }
+      }
+      .subs-btn {
+        background-color: red;
+        color: white;
+        font-size: 15px;
+        padding: 10px 20px;
+        cursor: pointer;
+        margin-bottom: 20px;
+        transition: all 0.5s ease;
+        &:hover {
+          border: 1px solid red;
+          background-color: white;
+          color: red;
+        }
+      }
+    }
+  }
+}

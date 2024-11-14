@@ -1,0 +1,15 @@
+#clients {
+  margin-top: 50px;
+}
+
+.clients {
+  @include container;
+  @include flex(center, center, column, 50px);
+  .about-info {
+    @include header;
+  }
+  p {
+    text-align: center;
+    color: gray;
+  }
+}

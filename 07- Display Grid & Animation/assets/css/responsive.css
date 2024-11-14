@@ -1,0 +1,250 @@
+@media (max-width: 576px) {
+  .container {
+    max-width: 500px;
+  }
+  .fa-solid{
+    display: flex;
+  }
+  .nav-logo{
+    display: none;
+  }
+  .hero {
+    width: 500px;
+  }
+  .hero-info h1 {
+    font-size: 70px;
+  }
+  .product-grid::before,
+  .product-grid::after {
+    display: none;
+  }
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .center {
+    max-width: 500px;
+  }
+  .collection {
+    width: 500px;
+  }
+  .collection-cards {
+    width: 450px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .eko-ev {
+    width: 65%;
+  }
+  .weekend {
+    width: 500px;
+  }
+  .weekend-info h3 {
+    font-size: 30px;
+  }
+  .weekend-info p {
+    font-size: 20px;
+  }
+  .weekend-info button{
+   padding: 10px;
+  }
+  .last-cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 500px;
+  }
+  .footer-flex {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .container {
+    max-width: 680px;
+  }
+  .hero-info h1{
+    font-size: 100px;
+  }
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .center {
+    max-width: 680px;
+  }
+  .collection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .collection-cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .product-grid::before,
+  .product-grid::after {
+    display: none;
+  }
+  .eko-ev {
+    width: 70%;
+  }
+  .eko-ev h1{
+    text-align: center;
+  }
+  .eko-ev-img p{
+    text-align: center;
+    font-size: 11px;
+    width: 80%;
+  }
+  .eko-ev-img{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .weekend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .weekend-info h3 {
+    font-size: 30px;
+  }
+  .weekend-info p {
+    font-size: 14px;
+  }
+  .weekend-info button{
+   padding: 10px;
+  }
+  .weekend-img{
+    width: 80%;
+  }
+  .last-collection {
+    width: 90%;
+  }
+  .last-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer {
+    width: 75%;
+  }
+  .footer-flex {
+    width: 600px;
+  }
+  .footer-links{
+    display: flex;
+    gap: 5px;
+  }
+  .footer-bottom {
+    width: 600px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .container {
+    max-width: 900px;
+  }
+  .hero-info h1{
+    font-size: 150px;
+  }
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .collection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .product-grid::before,
+  .product-grid::after {
+    display: none;
+  }
+  .collection-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .eko-ev {
+    width: 80%;
+  }
+  .weekend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .weekend-info h3 {
+    font-size: 40px;
+  }
+  .weekend-info p {
+    font-size: 20px;
+  }
+  .weekend-info button{
+   padding: 20px;
+  }
+  .weekend-img{
+    width: 90%;
+  }
+  .last-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .footer {
+    width: 75%;
+  }
+  .footer-flex {
+    width: 600px;
+  }
+  .footer-links{
+    display: flex;
+    gap: 5px;
+  }
+  .footer-bottom {
+    width: 600px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .container {
+        max-width: 1100px;
+      }
+      .hero {
+        width: 900px;
+      }
+      .hero-info h1{
+        font-size: 150px;
+      }
+      .collection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .product-grid::before,
+      .product-grid::after {
+        display: none;
+      }
+      .eko-ev {
+        width: 80%;
+      }
+      .weekend {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .weekend-info h3 {
+        font-size: 40px;
+      }
+      .weekend-info p {
+        font-size: 20px;
+      }
+      .weekend-info button{
+       padding: 20px;
+      }
+      .weekend-img{
+        width: 90%;
+      }
+}

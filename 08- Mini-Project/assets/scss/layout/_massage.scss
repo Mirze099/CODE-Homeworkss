@@ -1,0 +1,60 @@
+#massage {
+  margin-top: 50px;
+}
+
+.massage {
+  @include container;
+  @include flex(center, flex-start, column, 50px);
+  //   width: 100%;
+  h1 {
+    font-size: 35px;
+  }
+  .massage-input {
+    // @include flex(center, flex-start, column, 10px);
+    width: 100%;
+    .firstname {
+      text-align: center;
+      width: 30%;
+      border: 1px solid rgb(125, 125, 125);
+      padding-block: 15px;
+    }
+    .lastname {
+      text-align: center;
+      width: 30%;
+      border: 1px solid rgb(125, 125, 125);
+      padding-block: 15px;
+    }
+    .email {
+      text-align: center;
+      width: 30%;
+      border: 1px solid rgb(125, 125, 125);
+      padding-block: 15px;
+    }
+    .subject {
+      text-align: center;
+      width: 91%;
+      border: 1px solid rgb(125, 125, 125);
+      margin-top: 20px;
+      padding-block: 15px;
+    }
+    textarea {
+      width: 91%;
+      border: 1px solid rgb(125, 125, 125);
+      margin-top: 20px;
+      padding-block: 15px;
+    }
+  }
+  .message-btn {
+    padding: 20px;
+    color: white;
+    background-color: red;
+    font-size: 16px;
+    transition: all 0.5s ease;
+    border: 1px solid red;
+
+    &:hover {
+      background-color: white;
+      color: red;
+    }
+  }
+}

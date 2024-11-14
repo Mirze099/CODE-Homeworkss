@@ -1,0 +1,43 @@
+.navbar {
+//   @include container;
+background-color: rgba(67, 60, 60, 0.619);
+  @include flex(space-around, center, row, 0px);
+  height: 10vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  .nav-logo {
+    font-size: $font-l;
+  }
+  .nav-right {
+    ul {
+      @include flex(center, center, row, 20px);
+      li {
+        // padding: 10px;
+        a {
+          font-size: $font-m;
+          font-weight: $font-weight-600;
+          color: white;
+          transition: 0.5s ease;
+          &:hover {
+            color: rgb(255, 0, 0);
+          }
+        }
+      }
+    }
+    @include responsive(desktop) {
+      display: none;
+    }
+  }
+  .fa-bars {
+    display: none;
+    @include responsive(desktop) {
+      display: flex;
+    }
+  }
+}
+
+.active{
+    color: rgb(216, 0, 0) !important;
+}

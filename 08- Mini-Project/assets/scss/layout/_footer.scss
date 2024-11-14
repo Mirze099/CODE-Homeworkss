@@ -1,0 +1,22 @@
+.footer {
+  background-color: #1e1e1e;
+  padding: 10rem;
+  margin-top: 50px;
+  @include flex(center, center, column, 50px);
+  .icons {
+    @include flex(center, center, row, 20px);
+
+    .fa-facebook {
+      border: 1px solid white;
+      border-radius: 50%;
+      color: white;
+      font-size: 25px;
+      padding: 18px;
+      transition: all 0.7s ease;
+      &:hover {
+        background-color: white;
+        color: black;
+      }
+    }
+  }
+}

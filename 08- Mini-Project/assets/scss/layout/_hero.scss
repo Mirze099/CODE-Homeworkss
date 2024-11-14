@@ -1,0 +1,40 @@
+#hero {
+  background-image: url(https://preview.colorlib.com/theme/bizpro/images/home/slide-1.jpg);
+  padding-block: 20rem;
+  background-position: 50% 50%;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.hero {
+  @include container;
+  @include flex(center, center, column, 0px);
+  .hero-info {
+    @include flex(center, center, column, 20px);
+    color: white;
+    h1 {
+      font-size: $font-xxl;
+    }
+    .hero-btn {
+      border: 2px solid red;
+      color: white;
+      padding: 20px 15px;
+      transition: 0.4s ease;
+      &:hover {
+        transform: translateX(20px);
+        background-color: red;
+      }
+    }
+  }
+  @include responsive(desktop) {
+    .hero-info {
+      font-size: 15px;
+      h1 {
+        font-size: $font-l;
+      }
+      .hero-btn {
+        padding: 15px 10px;
+      }
+    }
+  }
+}

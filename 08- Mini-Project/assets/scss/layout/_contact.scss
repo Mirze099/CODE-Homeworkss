@@ -1,0 +1,46 @@
+#contact {
+  margin-top: 50px;
+}
+
+.contact {
+  @include container;
+  @include flex(center, center, row, 20px);
+  width: 80%;
+  .contact-wrapper {
+    @include flex(center, center, row, 20px);
+  }
+  .contact-left {
+    @include flex(center, flex-start, column, 55px);
+    // width: 39%;
+    .contact-left-info {
+      @include flex(center, flex-start, column, 20px);
+    }
+    .contact-left-icons {
+      @include flex(center, center, row, 10px);
+      .left-icon {
+        border-radius: 50%;
+        background-color: red;
+        padding: 20px;
+        color: white;
+        font-size: 15px;
+        transition: all 0.8s ease;
+        border: 1px solid red;
+
+        &:hover {
+          color: red;
+          background-color: white;
+        }
+      }
+      .left-info {
+        @include flex(center, flex-start, column, 10px);
+      }
+    }
+  }
+  .contact-right {
+    @include flex(center, flex-start, column, 20px);
+    width: 39%;
+    iframe {
+      width: 100%;
+    }
+  }
+}

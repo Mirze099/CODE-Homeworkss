@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: konit-black;
+}
+
+@font-face {
+  font-family: konit-black;
+  src: url(../assets/fonts/Kanit-Black.ttf);
+}
+
+.navbar {
+  background-color: rgb(51, 115, 212);
+  padding: 20px;
+  color: white;
+}
+
+.center {
+  background-color: rgb(60, 150, 55);
+  margin-top: 20px;
+  padding: 40px;
+  width: 600px;
+  margin-left: 320px;
+  border: 5px solid rgb(40, 87, 40);
+  box-shadow: 8px 8px black;
+}
+
+.center-box {
+  background-color: rgb(255, 41, 41);
+  padding: 30px;
+  text-align: center;
+  margin-top: 20px;
+  width: 250px;
+  margin-left: 480px;
+  border: 5px solid rgb(165, 66, 66);
+  color: white;
+  box-shadow: 8px 8px black;
+  border-radius: 8px;
+}
+
+a {
+  color: white;
+}
+
+.footer {
+  background-color: rgb(61, 67, 153);
+  color: white;
+  padding: 30px;
+  margin-top: 40px;
+}
+
+.top-p {
+  margin-bottom: 20px;
+}
